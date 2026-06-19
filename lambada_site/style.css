@@ -60,16 +60,235 @@ text-decoration: none;
 transform: scale(1.1, 1.1);    
 }
 
+.big_text_div {
+width: 90%;
+height: 70px;
+margin: 0 auto;
+margin-top: 180px;
+margin-bottom: 10px;
+}
+
+.big_text {
+color: white;
+font-size: 70px;    
+}
+
+.sculpt_photo1_div {
+width: 18%;
+height: 50px;
+margin: 0 auto;  
+margin-bottom: 10px;  
+}
+
+.sculpt_photo1 {
+width: 100%;
+height: 50px;    
+}
+
+.buttons_div {
+width: 50%;
+height: 60px;
+margin: 0 auto;    
+}
+
+.button1 {
+width: 30%;
+height: 60px;
+background-color: rgba(255, 255, 255, 0.175);
+border-color: white;
+color: white;
+margin-right: 290px;
+border-radius: 10px;
+transition: 0.3s;   
+}
+
+.button1:hover {
+transform: matrix(1.1, 0, 0, 1.1, 10, 0);
+}
+
+.button2 {
+width: 30%;
+height: 60px;
+border-color: white;
+background-color: rgba(255, 255, 255, 0.175);
+color: white;
+border-radius: 10px;
+transition: 0.3s;    
+}
+
+.button2:hover {
+transform: matrix(1.1, 0, 0, 1.1, -10, 0);
+}
+
 .main2 {
 width: 100%;
 height: 750px;
 background-image: url(./images/Background1.png);
+position: relative;
+}
+
+.left_div {
+width: 50%;
+height: 750px;
+display: inline-block;
+position: absolute;    
+}
+
+.gold_text_div {
+width: 32%;
+height: 50px;
+margin: 0 auto;   
+}
+
+.gold_text {
+color: rgb(218, 179, 62);
+font-size: 30px;
+}
+
+.sculpt_photo2_div {
+width: 35%;
+height: 25px;
+margin: 0 auto;
+}
+
+.sculpt_photo2 {
+width: 100%;
+height: 25px;
+}
+
+.long_text_div {
+width: 54%;
+height: 95px;
+margin: 0 auto;    
+}
+
+.customer_photo_div {
+width: 30%;
+height: 200px;
+margin: 0 auto;
+}
+
+.customer_photo {
+width: 100%;
+height: 200px;    
+}
+
+.right_div {
+width: 48%;
+height: 750px;
+display: inline-block;
+position: absolute;
+right: 0;    
+}
+
+.big_plate_div {
+width: 90%;
+height: 640px; 
+margin: 0 auto;
+border-radius: 90%;
+transition: 1s ;    
+}
+
+.big_plate_div:hover {
+transform: matrix(0.9, 0, 0, 0.9, -40, 0) rotate(270deg);
+}
+
+.big_plate {
+width: 100%;
+height: 640px;    
 }
 
 .main3 {
 width: 100%;
 height: 750px;
 background-image: url(./images/bg.png);
+position: relative;
+}
+
+.main3div {
+width: 32%;
+height: 350px;
+background-color: rgba(0, 0, 0, 0.3);
+border-radius: 20px;
+padding-top: 100px;
+padding-left: 8%;
+position: absolute;
+right: 0;
+top: 150px;    
+}
+
+.fine_text {
+color: white;
+font-size: 40px;
+margin-left: 40px;    
+}
+
+.sculpt_photo3_div {
+width: 60%;
+height: 25px;
+margin-left: 25px;
+}
+
+.sculpt_photo3 {
+width: 100%;
+height: 30px;
+}
+
+.long_text_div2 {
+width: 80%;
+height: 100px;
+margin-top: 10px;
+}
+
+.long_text2 {
+color: white;    
+}
+
+.circle_div1 {
+width: 23%;
+height: 110px;
+border-radius: 50%;
+background-image: url(./images/image.png);
+background-size: cover;
+background-repeat: no-repeat;
+display: inline-block;
+margin-right: 20px;
+transition: 0.4s;    
+}
+
+.circle_div1:hover {
+transform: scale(1.1, 1.1);
+}
+
+.circle_div2 {
+width: 23%;
+height: 110px;
+border-radius: 50%;
+background-image: url(./images/image1.png);
+background-size: cover;
+background-repeat: no-repeat;
+display: inline-block; 
+margin-right: 20px;
+transition: 0.4s;    
+}
+
+.circle_div2:hover {
+transform: scale(1.1, 1.1);
+}
+
+.circle_div3 {
+width: 23%;
+height: 110px;
+border-radius: 50%;
+background-image: url(./images/image2.png);
+background-size: cover;
+background-repeat: no-repeat;
+display: inline-block;
+transition: 0.4s;    
+}
+
+.circle_div3:hover {
+transform: scale(1.1, 1.1);
 }
 
 .main4 {
@@ -80,6 +299,44 @@ background-image: url(./images/Background2.png);
 
 .main5 {
 width: 100%;
-height: 750px;
+height: 675px;
 background-image: url(./images/bbbbg.png);
+padding-top: 75px;
+}
+
+.final_div {
+width: 42%;
+height: 400px;
+background-color: rgba(0, 0, 0, 0.6);
+border-radius: 20px;
+margin: 0 auto;
+padding-left: 18%;
+padding-top: 200px;    
+}
+
+.fine_text2 {
+color: white;
+font-size: 40px;
+margin-left: 40px;    
+}
+
+.sculpt_photo4_div {
+width: 50%;
+height: 23px;
+margin-left: 25px;
+}
+
+.sculpt_photo4 {
+width: 100%;
+height: 23px;
+}
+
+.long_text_div3 {
+width: 80%;
+height: 100px;
+margin-top: 10px;
+}
+
+.long_text3 {
+color: white;    
 }
